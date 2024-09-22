@@ -15,7 +15,6 @@ const RequestAirdropButton = () => {
     <div>
       <input id='amount' type="text" placeholder="Amount in SOL" />
       <button onClick={requestAirDrop}>Request Airdrop</button>
-      {wallet.publicKey && <div>Public Key: {wallet.publicKey.toBase58()}</div>}
     </div>
   )
 }
